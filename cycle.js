@@ -216,5 +216,5 @@ if (thisimg >= imgcnt) thisimg = 0;
 document.getElementById('rollimg').src = imgs[thisimg];
 }
 }
-setInterval(rotate,100);
+setInterval(rotate,50);
 })();
